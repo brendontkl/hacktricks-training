@@ -2,6 +2,9 @@ name: "STS Lab 2: Github Access"
 
 # The workflow should only trigger on pull requests to the main branch
 on:
+  push:
+    branches:
+      - main
   pull_request:
     branches:
       - main
